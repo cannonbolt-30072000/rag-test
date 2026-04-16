@@ -1,0 +1,155 @@
+{
+  "summary": {
+    "faithfulness": {
+      "average": 0.88,
+      "min": 0.0,
+      "max": 1.0,
+      "pass": true,
+      "measured": 13
+    },
+    "relevancy": {
+      "average": 0.87,
+      "min": 0.0,
+      "max": 1.0,
+      "pass": true,
+      "measured": 15
+    },
+    "precision": {
+      "average": 0.35,
+      "min": 0,
+      "max": 1.0,
+      "pass": false,
+      "measured": 14
+    },
+    "recall": {
+      "average": 0.58,
+      "min": 0.0,
+      "max": 1.0,
+      "pass": false,
+      "measured": 13
+    }
+  },
+  "details": [
+    {
+      "question": "What active ingredient is in Sivanto Prime and what concentration?",
+      "answer": "The active ingredient in Sivanto Prime is flupyradifurone, at a concentration of 200 g/L [Source 1, Source 2].",
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "question": "What's the pre-harvest interval for Sivanto Prime on cotton?",
+      "answer": "The pre-harvest interval for Sivanto Prime on cotton is 7 days [Source 1, Source 2].",
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "precision": 0,
+      "recall": 0.0
+    },
+    {
+      "question": "How many CFU per gram does Serenade Optimum contain?",
+      "answer": "Serenade Optimum contains a minimum concentration of 1 x 10^9 CFU/g [Source 1, Source 2].",
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "question": "What's the glyphosate concentration in Roundup PowerMAX 3?",
+      "answer": "Roundup PowerMAX 3 contains the potassium salt of glyphosate, which is equivalent to 4.5 lb acid equivalent per gallon [Source 1, Source 2].",
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "question": "What IRAC group is Sivanto Prime classified under?",
+      "answer": "Sivanto Prime is classified as IRAC Group 4D [Source 1, Source 2].",
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "precision": "FAILED",
+      "recall": 1.0
+    },
+    {
+      "question": "How does Sivanto Prime compare to neonicotinoids in terms of mode of action and resistance?",
+      "answer": "Sivanto Prime contains the active ingredient flupyradifurone, which belongs to the butenolide chemical class [5]. It acts as an agonist at the nicotinic acetylcholine receptor (nAChR) in the insect ne",
+      "faithfulness": 1.0,
+      "relevancy": 0.67,
+      "precision": 0,
+      "recall": 0.0
+    },
+    {
+      "question": "How do Sivanto Prime and Roundup PowerMAX 3 compare in terms of soil degradation speed?",
+      "answer": "I don't have enough information to answer this.",
+      "faithfulness": 0.0,
+      "relevancy": 0.0,
+      "precision": 0,
+      "recall": "FAILED"
+    },
+    {
+      "question": "What's the difference between Serenade Optimum's efficacy on powdery mildew versus early blight?",
+      "answer": "Serenade Optimum has a \"Good - Excellent\" efficacy rating for Powdery Mildew [Source 3, 4]. For Early Blight, its efficacy rating is \"Moderate\" [Source 3, 4].",
+      "faithfulness": 0.5,
+      "relevancy": 1.0,
+      "precision": 0.48,
+      "recall": 1.0
+    },
+    {
+      "question": "What are the two active ingredients in Emesto Silver and their concentrations?",
+      "answer": "The two active ingredients in Emesto Silver are penflufen (75 g/L) and prothioconazole (37.5 g/L) [Source 1, Source 2].",
+      "faithfulness": "FAILED",
+      "relevancy": 1.0,
+      "precision": 0,
+      "recall": 1.0
+    },
+    {
+      "question": "How effective was Emesto Silver against Rhizoctonia in field trials?",
+      "answer": "In field trials conducted across 15 locations over 3 years, Emesto Silver demonstrated significant effectiveness against Rhizoctonia. It achieved an 85-95% reduction in Rhizoctonia stem canker severit",
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "precision": 0.42,
+      "recall": 0.0
+    },
+    {
+      "question": "Which products in the guide are approved for use on grapes, and what do they target?",
+      "answer": "The following products are approved for use on grapes:\n\n*   **Product for insect control:**\n    *   Targets Leafhoppers [Page 1, Page 1].\n    *   Application rate is 7.0 - 10.5 fl oz/acre [Page 1, Pag",
+      "faithfulness": 1.0,
+      "relevancy": 0.44,
+      "precision": 0.48,
+      "recall": "FAILED"
+    },
+    {
+      "question": "What three mechanisms does Serenade Optimum use to suppress plant diseases?",
+      "answer": "Serenade Optimum suppresses plant diseases through three mechanisms: direct antagonism, induced systemic resistance (ISR), and competitive exclusion of plant pathogens [Source 1, Source 2].",
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "precision": 0,
+      "recall": 1.0
+    },
+    {
+      "question": "Why can't you use Roundup PowerMAX 3 to control glyphosate-resistant Palmer amaranth?",
+      "answer": "Roundup PowerMAX 3 cannot control glyphosate-resistant Palmer amaranth because it shows no control (0%) on this weed species at any stage [Source 3, Source 4].",
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "precision": 0,
+      "recall": 0.0
+    },
+    {
+      "question": "What tank mix restrictions apply to Serenade Optimum?",
+      "answer": "Serenade Optimum should not be mixed with strongly alkaline products (pH > 9.0) or products containing chlorine-based sanitizers, as these will reduce the viability of Bacillus subtilis [Source 1, 2, ",
+      "faithfulness": "FAILED",
+      "relevancy": 1.0,
+      "precision": 0.48,
+      "recall": 0.5
+    },
+    {
+      "question": "What weather conditions does Bayer recommend for applying Roundup PowerMAX 3 to minimize environmental impact?",
+      "answer": "To minimize environmental impact when applying Roundup PowerMAX 3, Bayer recommends the following weather conditions:\n\n*   **Wind Speed:** Below 10 mph [Source 1, Source 2]. Do not apply when wind spe",
+      "faithfulness": 1.0,
+      "relevancy": 1.0,
+      "precision": 0,
+      "recall": 0.0
+    }
+  ],
+  "total_questions": 15
+}

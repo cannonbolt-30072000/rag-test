@@ -1,0 +1,16 @@
+.git
+.gitignore
+.env
+.vscode
+.deepeval
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+pharma_rag_qa.egg-info
+test.ipynb
+*.ipynb_checkpoints
+.pytest_cache
+README.md
+terraform/
+scripts/pre_compute.py

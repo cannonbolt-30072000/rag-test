@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# DeepEval
+.deepeval/
+
+# Jupyter
+.ipynb_checkpoints/
+test.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform state (contains secrets)
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform/
+terraform/.terraform.lock.hcl

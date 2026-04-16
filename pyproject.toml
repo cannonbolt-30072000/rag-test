@@ -1,0 +1,63 @@
+[project]
+name = "pharma-rag-qa"
+version = "0.1.0"
+description = "Pharma RAG Q&A pipeline"
+requires-python = ">=3.10"
+
+dependencies = [
+    # API framework
+    "fastapi",
+    "uvicorn",
+
+    # LLM & orchestration
+    "langchain",
+    "langchain-community",
+    "langchain-google-genai",
+    "langchain-openai",
+    "langchain-text-splitters",
+    "langgraph",
+
+    # Vector store
+    "qdrant-client",
+
+    # Embeddings & reranking
+    "sentence-transformers",
+    "fastembed",
+
+    # Document processing
+    "pypdf",
+    "python-docx",
+
+    # Data & utilities
+    "pandas",
+    "python-dotenv",
+    "pydantic",
+    "pydantic-settings",
+
+    # Evaluation
+    "deepeval",
+
+    # Google AI
+    "google-genai",
+
+    # UI
+    "gradio",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ipykernel",
+    "ipython",
+]
+
+[project.scripts]
+pre_compute = "scripts.pre_compute:main"
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["DTO*", "eval*", "generation*", "ingestion*", "retrieval*", "scripts*"]

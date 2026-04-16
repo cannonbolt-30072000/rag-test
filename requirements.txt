@@ -1,0 +1,38 @@
+# API framework
+fastapi==0.135.3
+uvicorn==0.44.0
+python-multipart==0.0.26
+
+# LLM & orchestration
+langchain==1.2.15
+langchain-community==0.4.1
+langchain-google-genai==4.2.2
+langchain-openai==1.1.13
+langchain-text-splitters==1.1.1
+langgraph==1.1.6
+
+# Vector store
+qdrant-client==1.17.1
+
+# Embeddings & reranking
+sentence-transformers==5.4.1
+fastembed==0.7.4
+
+# Document processing
+pypdf==6.10.1
+python-docx==1.2.0
+
+# Data & utilities
+pandas==3.0.2
+python-dotenv==1.2.2
+pydantic==2.13.1
+pydantic-settings==2.13.1
+
+# Google AI
+google-genai==1.73.1
+
+# Evaluation
+deepeval==3.9.7
+
+# UI
+gradio==6.12.0
